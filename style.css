@@ -4,6 +4,15 @@ img {
   margin-top: 10%;
 }
 
+.header-img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -23,9 +32,13 @@ div {
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 10px 10px 10px;
+  height: 40px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footerbar {
