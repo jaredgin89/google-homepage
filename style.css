@@ -1,0 +1,57 @@
+img {
+  width: 30%;
+  height: auto;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #716b6b
+}
+
+.logo {
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 10px 10px;
+}
+
+.footerbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 40px;
+  line-height: 40px;
+  background-color: #eeeeee;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  border-top: 1px solid #ddd;
+}
+
+.searchbar {
+  text-align: center;
+}
+
+.searchinput {
+  text-align: center;
+  width: 450px;
+  height: 30px;
+  margin-bottom: 10px;
+}
