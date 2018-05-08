@@ -1,61 +1,61 @@
-<!-- This HTML file is used to recreate the Google homepage. The links do not need
-      to be functional. The goal is to make the webpage appear similar to Google -->
 <!DOCTYPE html>
 <html>
 
 <head>
   <link charset="UTF-8">
   <link href="style.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 
 <body>
+  <div class="page">
 
 <!-- Header -->
-  <div class="navbar">
-    <div>
-      <a href>About</a>
-      <a href>Store</a>
+    <div id="header">
+      <ul id="left">
+        <li><a href="#"/>About</li>
+        <li><a href="#"/>Store</li>
+      </ul>
+      <ul id="right">
+        <li><a href="#"/>Gmail</li>
+        <li><a href="#"/>Images</li>
+        <li><a href="#"/>Apps</li>
+        <li><a href="#"/>Notifications</li>
+        <li><a href="#"/>Account</li>
+      </ul>
     </div>
-    <div>
-      <a href>Gmail</a>
-      <a href>Images</a>
-      <a href>Apps</a>
-      <a href>Notifications</a>
-      <a href>Account</a>
-    </div>
-  </div>
 
-<!-- Logo and search bar -->
-  <div class="logo">
-    <img src="google.jpg" alt="Google homepage logo"/>
-  </div>
+<!-- Search bar, logo -->
+    <div id="search">
 
-  <div class="searchbar">
-    <div class="searchform">
-      <input class="searchinput">
+      <div id="image">
+        <img src="google.png" alt="Google logo"/>
+      </div>
+
+      <div id="searchbar">
+        <input type="text" name="search">
+      </div>
+
+      <div id="buttons">
+        <input id="searchbut" class="search" type="submit" name="search" value="Search">
+        <input id="luckybut" class="search" type="submit" name="lucky" value="I'm Feeling Lucky">
+      </div>
+
     </div>
-    <div class="buttons">
-      <input type="submit" class="flatbutton" value="Google Search">
-      <input type="submit" class="flatbutton" value="I'm Feeling Lucky">
-    </div>
-  </div>
 
 <!-- Footer -->
-  <div class="footer">
-    <div class="footerbar">
-      <div>
-        <a href>Advertising</a>
-        <a href>Business</a>
-      </div>
-      <div>
-        <a href>Privacy</a>
-        <a href>Terms</a>
-        <a href>Settings</a>
-      </div>
+    <div id="footer">
+      <ul id="left">
+        <li><a href="#"/>Advertising</li>
+        <li><a href="#"/>Business</li>
+      </ul>
+      <ul id="right">
+        <li><a href="#"/>Privacy</li>
+        <li><a href="#"/>Terms</li>
+        <li><a href="#"/>Settings</li>
+      </ul>
     </div>
-  </div>
 
+  </div>
 </body>
 
 </html>
