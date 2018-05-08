@@ -106,9 +106,6 @@ input {
   -webkit-padding-end: 20px;
   float: right;
 }
-#appbut {
-  display: inline-block;
-}
 .search {
   width: 10%;
   height: 30px;
@@ -131,7 +128,13 @@ input {
   border-radius: 3px;
   font-weight: bold;
 }
-#header #left #apps {
+#apps {
   bottom: 0;
   margin-top: 5px;
+}
+#appbut {
+  opacity: 0.8;
+}
+#appbut:hover{
+  opacity: 1;
 }
